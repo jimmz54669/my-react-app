@@ -142,19 +142,19 @@ function App() {
       </div>
       <button className="span-two" onClick={() => dispatch({ type:ACTIONS.CLEAR })}>AC</button>
       <button onClick={() => dispatch({ type:ACTIONS.DELETE_DIGIT })}>DEL</button>
-      <operationButton operation="÷" dispatch={dispatch} />
+      <OperationButton operation="÷" dispatch={dispatch} />
       <DigitButton digits="1" dispatch={dispatch} />
       <DigitButton digits="2" dispatch={dispatch} />
       <DigitButton digits="3" dispatch={dispatch} />
-      <operationButton operation="*" dispatch={dispatch} />
+      <OperationButton operation="*" dispatch={dispatch} />
       <DigitButton digits="4" dispatch={dispatch} />
       <DigitButton digits="5" dispatch={dispatch} />
       <DigitButton digits="6" dispatch={dispatch} />
-      <operationButton operation="+" dispatch={dispatch} />
+      <OperationButton operation="+" dispatch={dispatch} />
       <DigitButton digits="7" dispatch={dispatch} />
       <DigitButton digits="8" dispatch={dispatch} />
       <DigitButton digits="9" dispatch={dispatch} />
-      <operationButton operation="-" dispatch={dispatch} />
+      <OperationButton operation="-" dispatch={dispatch} />
       <DigitButton digits="." dispatch={dispatch} />
       <DigitButton digits="0" dispatch={dispatch} />
       <button className="span-two" onClick={() => dispatch({ type:ACTIONS.EVALUATE })}>=</button>
